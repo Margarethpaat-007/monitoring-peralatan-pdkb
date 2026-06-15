@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Monitoring Peralatan</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <img src="assets/PLN_Lans.png" alt="Logo PLN">
+
+            <h3>PDKB TT</h3>
+
+            <span>Manguni</span>
+
+        </div>
+
+<ul>
+
+    <li class="active"
+        onclick="location.href='dashboard.html'">
+        Dashboard
+    </li>
+
+    <li
+        onclick="location.href='gardu-induk.html'">
+        Gardu Induk
+    </li>
+
+    <li
+        onclick="location.href='jaringan.html'">
+        Jaringan
+    </li>
+
+    <li id="logoutBtn">
+        Logout
+    </li>
+
+</ul>
+
+    </aside>
+
+    <!-- CONTENT -->
+
+    <main class="content">
+
+        <header class="topbar">
+
+            <h2>
+                Monitoring Peralatan PDKB TT Manguni
+            </h2>
+
+        </header>
+
+        <!-- CARD STATISTIK -->
+
+        <section class="stats">
+
+            <div class="stat-card">
+
+                <h4>Total Peralatan</h4>
+
+                <h1>92</h1>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h4>Layak Pakai</h4>
+
+                <h1>80</h1>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h4>Kalibrasi</h4>
+
+                <h1>8</h1>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h4>Rusak</h4>
+
+                <h1>4</h1>
+
+            </div>
+
+        </section>
+
+        <!-- MENU UTAMA -->
+
+        <section class="menu-monitoring">
+
+            <div class="menu-card">
+
+                <h2>⚡ Monitoring Gardu Induk</h2>
+
+                <p>
+                    Monitoring seluruh peralatan yang digunakan
+                    pada pekerjaan Gardu Induk.
+                </p>
+
+                <a href="gardu-induk.html">
+                    Lihat Data
+                </a>
+
+            </div>
+
+            <div class="menu-card">
+
+                <h2>🔌 Monitoring Jaringan</h2>
+
+                <p>
+                    Monitoring seluruh peralatan yang digunakan
+                    pada pekerjaan Jaringan.
+                </p>
+
+                <a href="jaringan.html">
+                    Lihat Data
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
